@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/title_cadastrese"
+        android:layout_width="394dp"
+        android:layout_height="113dp"
+        android:fillViewport="true"
+        android:text="@string/resultadosomar"
+        android:textColor="@color/violetaclaro"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        style="@style/Edit_Text"
+        android:layout_width="88dp"
+        android:layout_height="69dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAppearance="?android:textAppearanceLarge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

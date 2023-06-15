@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="primeiro">Digite o primeiro número</string>
+    <string name="segundo">Digite o segundo número</string>
+    <string name="soma">Somar</string>
+    <string name="resultadosomar">O resultado da sua soma é :</string>
+</resources>
